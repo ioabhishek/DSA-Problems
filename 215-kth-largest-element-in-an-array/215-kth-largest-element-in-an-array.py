@@ -3,9 +3,7 @@ class Solution:
         nums.sort()
         return nums[len(nums)-k]
         
-        
-        
-        
+        #using insertion sort method
 #         for i in range(1, len(nums)):
 #             key = nums[i]
 #             j = i-1
